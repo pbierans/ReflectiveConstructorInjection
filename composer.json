@@ -1,0 +1,21 @@
+{
+  "name": "pbierans/reflective-constructor-injection",
+  "description": "Helps with the CostructorInjection pattern. Allows auto detecting and aliasing and creating a class with named parameters. You can misuse it as an AntiPattern.",
+  "license": "private, do not use me in production context at all",
+  "authors": [
+    {
+      "name": "Patrick Bierans",
+      "email": "pbierans@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PatrickBierans\\ReflectiveConstructorInjection\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  }
+}
